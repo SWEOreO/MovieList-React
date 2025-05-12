@@ -14,7 +14,6 @@ const MovieCard = ({ movie, onLike, onShowModal }) => {
       <div className="movie-icons">
         <div className="rating-display">
           <i className="ion-ios-star star"></i>
-          {movie.vote_average?.toFixed(2) || 'N/A'}
         </div>
         <i
           className={`ion-ios-heart${movie.isLiked ? '' : '-outline'} like-icon ${movie.isLiked ? 'liked' : ''}`}

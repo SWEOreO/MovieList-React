@@ -181,7 +181,8 @@ function App() {
         const user = registeredUsers.find((u) => u.username === username && u.password === password);
         if (user) {
           setLoggedIn(true);
-          setCurrentUser(user);  // Set currentUser here
+          setCurrentUser(user); 
+          setUser({ ...user, isLoggedIn: true }); 
           setLoading(false);
           resolve(true);
           navigate('/');

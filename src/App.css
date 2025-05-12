@@ -432,3 +432,27 @@ button:disabled {
   border: 1px solid #ccc;
   font-size: 1rem;
 }
+
+
+.user-rating-dropdown {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-rating-dropdown label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.user-rating-dropdown select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: fit-content;
+  background-color: white;
+  color: #333;
+}
+

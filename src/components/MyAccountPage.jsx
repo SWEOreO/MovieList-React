@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const MyAccountPage = ({ currentUser }) => {  // Destructure currentUser from props
+const MyAccountPage = ({ currentUser }) => { 
   const navigate = useNavigate();
 
   if (!currentUser) {
